@@ -57,9 +57,8 @@ function generatePassword(lower, upper, number, symbol, length) {
   if (length > 15) {
     alert ('Password must be fewer than 15 characterrs')
     return ('');
-  }
+	}
 	
-// slice needed to 
 	const finalPassword = generatedPassword.slice(0, length);
 
 	return finalPassword;
